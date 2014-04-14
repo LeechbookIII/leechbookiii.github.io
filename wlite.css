@@ -1,0 +1,123 @@
+body {
+    background-color: white;
+    font-size: 12pt;
+    min-width: 900px;
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+.chapter-head {
+    font-size: 14pt;
+}
+
+.big-chapter-head {
+    font-size: 18pt;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+.catch-word {
+    text-align: right;
+}
+
+.chapter-number {
+    /*display: inline-block;
+    width: 55px;
+    text-align: right;
+    overflow: hidden;*/
+}
+
+.plaintext-link {
+    text-decoration: none;
+    color: black;
+}
+
+/*
+.container {
+    width: 960px;
+    background-color: white;
+    overflow: hidden;
+    margin: 0px auto;
+}
+*/
+
+.container {
+    min-width: 1000px;
+}
+
+.sentence {
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+/*
+.meta-stuff {
+    display: inline;
+    float: left;
+    width: 480px;
+}*/
+
+.meta-stuff-right {
+    padding-right: 200px;
+}
+
+.meta-stuff-left {
+    padding-left: 200px;
+}
+
+.old-e,
+.mod-e,
+.old-e-contd,
+.mod-e-contd {
+    display: inline;
+    float: left;
+    width: 470px;
+    padding-left: 30px;
+}
+
+.old-e,
+.old-e-contd {
+    float: left;
+}
+
+.mod-e,
+.mod-e-contd {
+    float: right;
+}
+
+.old-e,
+.mod-e {
+    text-indent: -25px;
+}
+
+.page-text {
+    position: relative;
+}
+
+.splash-title {
+    color: white;
+
+    width: 100%;
+
+    text-align: center;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.splash-container {
+    width: 100%;
+    height: 600px;
+    background-color: #eee;
+}
+
+
+
