@@ -1,0 +1,26 @@
+.glossary-side-nav li a:hover {
+    background-color: white;
+    border-left: 1px solid #428bca;
+}
+
+.glossary-side-nav li a {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.glossary-side-nav {
+	position: fixed;
+}
+
+.pagination {
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.navbar {
+	border: none;
+}
+
+.page-title {
+	margin-top: 10px;
+}
