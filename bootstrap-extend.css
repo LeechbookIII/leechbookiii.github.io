@@ -6,10 +6,15 @@
 .glossary-side-nav li a {
 	padding-top: 3px;
 	padding-bottom: 3px;
+
+	width: 250px;
 }
 
 .glossary-side-nav {
 	position: fixed;
+
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .pagination {
