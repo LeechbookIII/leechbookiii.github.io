@@ -1,7 +1,6 @@
 body {
     background-color: #757575;
     font-size: 12pt;
-    min-width: 900px;
 }
 
 hr {
@@ -48,10 +47,6 @@ hr {
     margin: 0px auto;
 }
 */
-
-.container {
-    min-width: 1000px;
-}
 
 .sentence {
     overflow: hidden;
