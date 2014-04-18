@@ -27,6 +27,10 @@ hr {
     text-align: right;
 }
 
+.cited-book {
+    font-style: italic;
+}
+
 .chapter-number {
     /*display: inline-block;
     width: 55px;
