@@ -57,6 +57,10 @@ hr {
     padding-top: 5px;
 }
 
+.catch {
+    float: right;
+}
+
 /*
 .meta-stuff {
     display: inline;
