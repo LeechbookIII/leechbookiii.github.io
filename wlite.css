@@ -105,6 +105,11 @@ hr {
     padding-left: 50px;
 }
 
+.footnote {
+    margin-left: 25px;
+    text-indent: -25px;
+}
+
 .page-text {
     position: relative;
 }
