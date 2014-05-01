@@ -101,6 +101,10 @@ hr {
     text-indent: -25px;
 }
 
+.verse {
+    padding-left: 50px;
+}
+
 .page-text {
     position: relative;
 }
