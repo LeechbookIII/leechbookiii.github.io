@@ -15,7 +15,7 @@
         <script src="jquery-1.11.0.min.js"></script>
         <script src="bootstrap.min.js"></script>
 
-        <title>Contact</title>
+        <title>Search</title>
 </head>
 
 <body>
@@ -32,25 +32,32 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="search.html">Search</a></li>
+        <li class="active"><a href="#">Search</a></li>
         <li><a href="bibliography.html">Bibliography</a></li>
-        <li class="active"><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container container-slim">
-  <h1 class="center">Contact</h1>
-  <br><br><br>
-  <h4 class="center">Editor</h4>
-  <p class="center">Brooke Bullock (<a href="mailto:bullock.brooke@gmail.com">bullock.brooke@gmail.com</a>)</p>
-  <h4 class="center">Web Designer</h4>
-  <p class="center">Colby Sieber (<a href="mailto:cas8@rice.edu">cas8@rice.edu</a>)</p>
-  <h4 class="center">Webmaster</h4>
-  <p class="center">Nick Vollmar (<a href="mailto:nhv1@rice.edu">nhv1@rice.edu</a>)</p>
-
+<div class="container">
+  <div class="col-md-3">
+<script>
+  (function() {
+    var cx = '017161579718048593232:vh2oltjhy2y';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox></gcse:searchbox>
+  </div>
+  <div class="col-md-9">
+    <gcse:searchresults></gcse:searchresults>
+  </div>
 </div>
-
-
 </body>
 </html>
