@@ -7,6 +7,11 @@ hr {
     margin: 20px 0px;
 }
 
+blockquote.subtle {
+    font-size: inherit;
+    margin-bottom: 10px;
+}
+
 .chapter-head {
     font-size: 14pt;
 }
@@ -27,8 +32,12 @@ hr {
     text-align: right;
 }
 
-.cited-book {
+.it {
     font-style: italic;
+}
+
+.u {
+    text-decoration: underline;
 }
 
 .chapter-number {
